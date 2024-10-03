@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+*{
+              margin: 0%;
+              padding: 0%;
+              box-sizing: border-box;
+              text-decoration: none;
+ }
+.header{
+         width:100vw;
+         height: 100vh;
+        background-position: center;   
+        background-color:black;      
+      
+  }
+       
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+  font-size: 20px;    
+  
+  }
+.navbar a:hover{
+              color:rgb(240, 12, 145);
+  
+           }
+.menu{
+  display: flex;
+  text-align: center;
+  gap:30px;
+  
+  }
+.menu  li{
+  list-style:none;
+  margin:3px; 
+  
+  
+  }
+.menu  li a{
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  padding: 6px;
+  color: aqua;
+  }
+  h3 a{
+        color: aqua;
+        font-size: 20px;
+}
+span{
+    color:rgb(240, 12, 145);
+}
+          
+.service{
+    background-color: black;
+    height: 90vh;
+    width: 100vw;
+    margin-top: 10%;
+
+}
+h2{
+    color: rgb(240, 12, 145);
+    font-size: 30px;
+    text-align: center;
+    width: 1130px;
+    margin: auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 260px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(70, 69, 69);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    color: aqua;
+    font-size: 20px;
+}
+.card i{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    color: rgb(240, 12, 145);
+}
+
+p{
+    color: white;
+}
+.card #btn3{
+        border:6px;
+        height: 40px;
+        width: 100px;
+        background-color:rgb(240, 12, 145);
+        color: white;
+        border-radius: 6px;
+        
+}
+.card #btn3:hover{
+        background-color:aqua;
+        color: black;
+        border: 2px solid black;
+        cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+   
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 20px;
+    
+}
+
+.footer-info,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-info h5,
+.footer-links h5,
+.footer-contact h5 {
+    margin-top: 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: aqua;
+    color: black;
+}
+
+.footer-bottom p {
+    margin: 0;
+    
+}
+          </style>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <h3><a href="website2.html">PORTF<span>OLIO</span></a></h3>
+             
+            <div class="menu">
+                    <li><a href="website2.html" >HOME</span></a></li>
+                    <li><a href="my about.html" >ABOUT</a></li>
+                    <li><a href="my skils.html">SKILLS</a>  </li>
+                    <li><a href="my service.html">SERVICE</a></li>
+                    <li><a href="my work.html">WORKS</a></li>
+                    <li><a href="my contact.html">CONTACT</a></li>
+                    
+                   
+            </div>
+           </nav>
+
+<div class="service">
+    <div class="three">
+        <h2> MY SERVICES</h2>
+    </div>
+    <div class="box">
+        <div class="card">
+            <i class="fa-solid fa-bars"></i>
+            <h5>Web Developement</h5>
+            <p>Every Website should be built with two primary goals:firstluy,it needs
+                to work across all devices.Secondary,it needs to be fast as possible.
+            </p>
+           <br><button id="btn3">Read More</button>
+        </div>
+        <div class="card">
+            <i class="fa-regular fa-user"></i>
+            <h5>Frontend</h5>
+            <p>Every Website should be built with two primary goals:firstluy,it needs
+                to work across all devices.Secondary,it needs to be fast as possible.
+            </p>
+            <br><button id="btn3">Read More</button>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-bell"></i>
+            <h5>Web designing</h5>
+            <p>Every Website should be built with two primary goals:firstluy,it needs
+                to work across all devices.Secondary,it needs to be fast as possible.
+            </p>
+           <br><button id="btn3">Read More</button>
+        </div>   
+    </div>
+</div>
+               
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h4>About Us</h4>
+            <p>We provide the best deals to clients and automotive services.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h5>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h4>Contact Us</h5>
+            <p>Email:gayaravada046@gmail.com</p>
+            <p>Phone:9676245439</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 portfolio. All rights reserved.</p>
+    </div>
+    </footer>
+    </header>>
+</body>
+</html>

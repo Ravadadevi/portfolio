@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    body{
+         border:3px solid aqua; 
+    }
+    
+    .header{
+   width:100vw;
+   height: 10vh;
+  background-position: center;   
+  background-color:black;      
+
+}
+ 
+.navbar{
+display: flex;
+justify-content: space-between;
+padding: 10px 10%;
+font-size: 20px;
+}
+.navbar a:hover{
+        color:rgb(240, 12, 145);
+
+     }
+     .menu{
+  display: flex;
+  text-align: center;
+  gap:40px;
+  
+  }
+  .menu  li{
+  list-style:none;
+  margin:3px; 
+  
+  
+  }
+  .menu  li a{
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  padding: 6px;
+  color: aqua;
+  }
+  h3 a{
+        color: aqua;
+        font-size: 20px;
+}
+span{
+    color:rgb(240, 12, 145);
+}
+          
+       .main{
+          color: white;
+          margin-top: 15%;
+          margin-left: 25%;
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+       } 
+       .main a{
+          margin:30px 0;
+          background-color:aqua;
+          padding: 10px 18px;
+          font-weight: bold;
+          color:black;
+          border-radius: 6px;  
+       } 
+       .main a:hover{
+          background-color:rgb(240, 12, 145);
+          color: black;
+          border: 2px solid black;
+  
+       }
+       #btn{
+          border:3px;
+          height: 30px;
+          width: 60px;
+          background-color: aqua;
+          color: black;
+          border-radius: 6px;
+       }
+
+          
+       .contact{ 
+     
+      height: 80vh;
+      width: 70vw;
+      display: flex;
+      margin-left: 200px;
+      margin-top:35px ;
+      border: 1.9px solid green;
+      background-color: rgb(44, 42, 42);
+      color: white;
+   
+     } 
+     .form1{
+        margin-left: 150px;
+        margin-top: 80px;
+
+
+     }
+     .form1 input{
+
+        width:400px;
+        height: 400px;
+
+     }
+
+     .form1 h2{
+      color:aqua;
+      margin-left:220px;
+    
+      
+     }
+     #four{
+      height: 40px;
+     } #five{
+      height: 40px;
+     } #six{
+      height: 40px;
+     } #seven{
+      height: 60px;
+     } 
+     .form2{    
+        margin-left: 120px;
+        margin-top: 200px;
+     }
+     .form2 input{
+     width:380px;
+      height: 500px;
+      margin-right: 140px;
+}
+     #one{
+      height: 60px;
+     }
+     #two{
+      height: 60px;
+     }
+     #three{
+      height: 60px;
+     }
+
+     
+
+       #btn1{
+          border:6px;
+          height: 40px;
+          width: 100px;
+          background-color: aqua;
+          color: black;
+          border-radius: 6px;
+          margin-left: 5%;
+       }
+       #btn1:hover{
+          background-color:rgb(247, 136, 201);
+          color: black;
+          border: 2px solid black;
+       }
+       footer {
+    background-color: rgb(54, 53, 53);
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0%;
+   
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.footer-info,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-info h5,
+.footer-links h5,
+.footer-contact h5 {
+    margin-top: 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: aqua;
+    color: black;
+}
+
+.footer-bottom p {
+    margin: 0;
+    
+}
+             
+    </style>  
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+           
+            <div class="menu"><h3><a href="website2.html">PORTF<span>OLIO</span></a></h3>
+
+                    <li><a href="website2.html">HOME</span></a></li>
+                    <li><a href="my about.html">ABOUT</a></li>
+                    <li><a href="my skills.html">SKILLS</a></li>
+                    <li><a href="my service">SERVICE</a></li>
+                    <li><a href="my work.html">WORKS</a></li>
+                    <li><a href="my contact.html">CONTACT</a></li>
+                    
+                  
+            </div>
+           </nav>
+           <div class="contact">
+            <div class="form1">
+               
+                  <h2>CONTACT ME</h2><br><br>
+                 <form>
+                    <label>FIRST NAME:</label>
+                  <input type="text" placeholder="Full name" id="four"><br><br>
+                  <label>LAST NAME:</label>
+                  <input type="text" placeholder="Lastname" id="five"><br><br>
+                  <label>SUBJECT</label>
+                  <input type="text" placeholder="subject" id="six"><br><br>
+                  <label>YOUR MASSAGE</label>
+                  <input type="text area" placeholder="Your Massage" id="seven">
+               </form>
+            </div>
+            <div class="form2">
+            <form>
+            <input type="text" placeholder="CONTACT.NO:9676245439" id="one"><br><br>
+            <input type="text" placeholder="E-MAIL:gayathriravada@gmail.com" id="two"><br><br>
+            <input type="text" placeholder="ADERSS:kothavalasa Vishakapatnam" id="three"><br><br>
+   
+         </form>
+           </div>
+           </div>
+   
+           </div>
+          
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-info">
+                    <h4>About Us</h4>
+                    <p>We provide the best deals on cars and automotive services.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h5>
+                        <p>Email:gayaravada046@gmail.com</p>
+                            <p>Phone:9676245439</p>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>&copy; 2024 portfolio. All rights reserved.</p>
+                    </div>
+            </footer>
+         </header>
+</body>
+</html>
