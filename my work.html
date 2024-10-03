@@ -128,6 +128,22 @@ span{
           color: black;
           border: 2px solid black;
        }
+        #one:hover{
+        transform: scale(1.05);
+        filter: grayscale(100%);
+     }
+     #two:hover{
+        transform: scale(1.05);
+       filter: saturate(10);
+     }
+     #three:hover{
+        transform: scale(1.05);
+          filter:invert(100%);
+     }
+     #four:hover{
+        transform: scale(1.05);
+        filter:sepia(100%);
+     }
        footer {
     background-color: rgb(48, 47, 47);
     color: #fff;
@@ -212,10 +228,10 @@ span{
     <div class="work">
         <h1>MY <span>WORKS</span></h1>
       <div class="img2">
-         <img src="cnp11.jpeg">
-         <img src="cnp33.jpeg">
-         <img src="cnp2.jpeg">
-         <img src="comiii.jpeg">
+         <img  id="one" src="cnp11.jpeg">
+         <img id="two" src="cnp33.jpeg">
+         <img  id="three" src="cnp2.jpeg">
+         <img  id="four"src="comiii.jpeg">
       </div>
      </div>
         </div>
